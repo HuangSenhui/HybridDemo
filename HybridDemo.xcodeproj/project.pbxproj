@@ -13,8 +13,19 @@
 		8B9C4B64292693DB00106D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B62292693DB00106D95 /* Main.storyboard */; };
 		8B9C4B66292693DD00106D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B65292693DD00106D95 /* Assets.xcassets */; };
 		8B9C4B69292693DD00106D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B67292693DD00106D95 /* LaunchScreen.storyboard */; };
+		8B9C4B7229269B1F00106D95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B7129269B1F00106D95 /* ContentView.swift */; };
 		9780C1CD4D7CF7552AB774B5 /* Pods_HybridDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5E884262638AA089E7BA4D /* Pods_HybridDemo.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B9C4C8929269CA500106D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9C4C1729269CA500106D95 /* Runner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 97C146EE1CF9000F007C117D;
+			remoteInfo = Runner;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8B9C4B59292693DB00106D95 /* HybridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +36,97 @@
 		8B9C4B65292693DD00106D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B9C4B68292693DD00106D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B9C4B6A292693DD00106D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9C4B7129269B1F00106D95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B9C4C0029269CA500106D95 /* .packages */ = {isa = PBXFileReference; lastKnownFileType = text; path = .packages; sourceTree = "<group>"; };
+		8B9C4C0129269CA500106D95 /* flutter_playground_android.iml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = flutter_playground_android.iml; sourceTree = "<group>"; };
+		8B9C4C0329269CA500106D95 /* widget_test.dart */ = {isa = PBXFileReference; lastKnownFileType = text; path = widget_test.dart; sourceTree = "<group>"; };
+		8B9C4C0429269CA500106D95 /* flutter_playground.iml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = flutter_playground.iml; sourceTree = "<group>"; };
+		8B9C4C0529269CA500106D95 /* .metadata */ = {isa = PBXFileReference; lastKnownFileType = text; path = .metadata; sourceTree = "<group>"; };
+		8B9C4C0629269CA500106D95 /* pubspec.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = pubspec.lock; sourceTree = "<group>"; };
+		8B9C4C0829269CA500106D95 /* Runner.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Runner.xcworkspace; sourceTree = "<group>"; };
+		8B9C4C0A29269CA500106D95 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		8B9C4C0B29269CA500106D95 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		8B9C4C0C29269CA500106D95 /* Flutter.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
+		8B9C4C0E29269CA500106D95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B9C4C0F29269CA500106D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B9C4C1129269CA500106D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B9C4C1329269CA500106D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B9C4C1429269CA500106D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B9C4C1529269CA500106D95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B9C4C1629269CA500106D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9C4C1729269CA500106D95 /* Runner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Runner.xcodeproj; sourceTree = "<group>"; };
+		8B9C4C1B29269CA500106D95 /* podhelper.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = podhelper.rb; sourceTree = "<group>"; };
+		8B9C4C1C29269CA500106D95 /* flutter_export_environment.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = flutter_export_environment.sh; sourceTree = "<group>"; };
+		8B9C4C1D29269CA500106D95 /* flutter_playground.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = flutter_playground.podspec; sourceTree = "<group>"; };
+		8B9C4C2029269CA500106D95 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		8B9C4C2129269CA500106D95 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		8B9C4C2229269CA500106D95 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; };
+		8B9C4C2329269CA500106D95 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		8B9C4C2429269CA500106D95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B9C4C2529269CA500106D95 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		8B9C4C2629269CA500106D95 /* Generated.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
+		8B9C4C2829269CA500106D95 /* Flutter.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; };
+		8B9C4C2929269CA500106D95 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
+		8B9C4C2C29269CA500106D95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B9C4C2F29269CA500106D95 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		8B9C4C3429269CA500106D95 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		8B9C4C3629269CA500106D95 /* launch_background.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = launch_background.xml; sourceTree = "<group>"; };
+		8B9C4C3829269CA500106D95 /* styles.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = styles.xml; sourceTree = "<group>"; };
+		8B9C4C3929269CA500106D95 /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		8B9C4C3F29269CA500106D95 /* MainActivity.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = MainActivity.java; sourceTree = "<group>"; };
+		8B9C4C4029269CA500106D95 /* include_flutter.groovy */ = {isa = PBXFileReference; lastKnownFileType = text; path = include_flutter.groovy; sourceTree = "<group>"; };
+		8B9C4C4129269CA500106D95 /* local.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = local.properties; sourceTree = "<group>"; };
+		8B9C4C4429269CA500106D95 /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		8B9C4C4529269CA500106D95 /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+		8B9C4C4729269CA500106D95 /* flutter.iml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = flutter.iml; sourceTree = "<group>"; };
+		8B9C4C4829269CA500106D95 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		8B9C4C4B29269CA500106D95 /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		8B9C4C5029269CA500106D95 /* GeneratedPluginRegistrant.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = GeneratedPluginRegistrant.java; sourceTree = "<group>"; };
+		8B9C4C5129269CA500106D95 /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		8B9C4C5229269CA500106D95 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		8B9C4C5329269CA500106D95 /* gradle.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradle.properties; sourceTree = "<group>"; };
+		8B9C4C5429269CA500106D95 /* gradlew.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew.bat; sourceTree = "<group>"; };
+		8B9C4C5529269CA500106D95 /* settings.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = settings.gradle; sourceTree = "<group>"; };
+		8B9C4C5629269CA500106D95 /* pubspec.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = pubspec.yaml; sourceTree = "<group>"; };
+		8B9C4C5729269CA500106D95 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8B9C4C5929269CA500106D95 /* main.dart */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.dart; sourceTree = "<group>"; };
+		8B9C4C5A29269CA500106D95 /* analysis_options.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = analysis_options.yaml; sourceTree = "<group>"; };
+		8B9C4C5C29269CA500106D95 /* c075001b96339384a97db4862b8ab8db.cache.dill.track.dill */ = {isa = PBXFileReference; lastKnownFileType = file; path = c075001b96339384a97db4862b8ab8db.cache.dill.track.dill; sourceTree = "<group>"; };
+		8B9C4C5E29269CA500106D95 /* gen_localizations.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = gen_localizations.stamp; sourceTree = "<group>"; };
+		8B9C4C5F29269CA500106D95 /* gen_dart_plugin_registrant.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = gen_dart_plugin_registrant.stamp; sourceTree = "<group>"; };
+		8B9C4C6029269CA500106D95 /* _composite.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = _composite.stamp; sourceTree = "<group>"; };
+		8B9C4C6329269CA500106D95 /* .last_build_id */ = {isa = PBXFileReference; lastKnownFileType = text; path = .last_build_id; sourceTree = "<group>"; };
+		8B9C4C6429269CA500106D95 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		8B9C4C6529269CA500106D95 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		8B9C4C6629269CA500106D95 /* Runner.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = Runner.app; sourceTree = "<group>"; };
+		8B9C4C6829269CA500106D95 /* Runner.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = Runner.app; sourceTree = "<group>"; };
+		8B9C4C6A29269CA500106D95 /* package_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package_config.json; sourceTree = "<group>"; };
+		8B9C4C6D29269CA500106D95 /* kernel_snapshot.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = kernel_snapshot.stamp; sourceTree = "<group>"; };
+		8B9C4C6E29269CA500106D95 /* debug_universal_framework.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug_universal_framework.stamp; sourceTree = "<group>"; };
+		8B9C4C6F29269CA500106D95 /* gen_localizations.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = gen_localizations.stamp; sourceTree = "<group>"; };
+		8B9C4C7029269CA500106D95 /* app.dill */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.dill; sourceTree = "<group>"; };
+		8B9C4C7129269CA500106D95 /* debug_unpack_ios.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug_unpack_ios.stamp; sourceTree = "<group>"; };
+		8B9C4C7229269CA500106D95 /* outputs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = outputs.json; sourceTree = "<group>"; };
+		8B9C4C7329269CA500106D95 /* gen_dart_plugin_registrant.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = gen_dart_plugin_registrant.stamp; sourceTree = "<group>"; };
+		8B9C4C7429269CA500106D95 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		8B9C4C7529269CA500106D95 /* flutter_assets.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = flutter_assets.d; sourceTree = "<group>"; };
+		8B9C4C7629269CA500106D95 /* debug_ios_bundle_flutter_assets.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug_ios_bundle_flutter_assets.stamp; sourceTree = "<group>"; };
+		8B9C4C7729269CA500106D95 /* kernel_snapshot.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = kernel_snapshot.d; sourceTree = "<group>"; };
+		8B9C4C7829269CA500106D95 /* .filecache */ = {isa = PBXFileReference; lastKnownFileType = text; path = .filecache; sourceTree = "<group>"; };
+		8B9C4C7A29269CA500106D95 /* kernel_snapshot.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = kernel_snapshot.stamp; sourceTree = "<group>"; };
+		8B9C4C7B29269CA500106D95 /* debug_universal_framework.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug_universal_framework.stamp; sourceTree = "<group>"; };
+		8B9C4C7C29269CA500106D95 /* gen_localizations.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = gen_localizations.stamp; sourceTree = "<group>"; };
+		8B9C4C7D29269CA500106D95 /* app.dill */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.dill; sourceTree = "<group>"; };
+		8B9C4C7E29269CA500106D95 /* debug_unpack_ios.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug_unpack_ios.stamp; sourceTree = "<group>"; };
+		8B9C4C7F29269CA500106D95 /* outputs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = outputs.json; sourceTree = "<group>"; };
+		8B9C4C8029269CA500106D95 /* gen_dart_plugin_registrant.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = gen_dart_plugin_registrant.stamp; sourceTree = "<group>"; };
+		8B9C4C8129269CA500106D95 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		8B9C4C8229269CA500106D95 /* flutter_assets.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = flutter_assets.d; sourceTree = "<group>"; };
+		8B9C4C8329269CA500106D95 /* debug_ios_bundle_flutter_assets.stamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug_ios_bundle_flutter_assets.stamp; sourceTree = "<group>"; };
+		8B9C4C8429269CA500106D95 /* kernel_snapshot.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = kernel_snapshot.d; sourceTree = "<group>"; };
+		8B9C4C8529269CA500106D95 /* .filecache */ = {isa = PBXFileReference; lastKnownFileType = text; path = .filecache; sourceTree = "<group>"; };
+		8B9C4C8629269CA500106D95 /* package_config_subset */ = {isa = PBXFileReference; lastKnownFileType = text; path = package_config_subset; sourceTree = "<group>"; };
+		8B9C4C8729269CA500106D95 /* version */ = {isa = PBXFileReference; lastKnownFileType = text; path = version; sourceTree = "<group>"; };
 		AFE678963DD8D5AB8FD0B4E9 /* Pods-HybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridDemo.debug.xcconfig"; path = "Target Support Files/Pods-HybridDemo/Pods-HybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BBA2B1E168200D94B1817528 /* Pods-HybridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridDemo.release.xcconfig"; path = "Target Support Files/Pods-HybridDemo/Pods-HybridDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FD5E884262638AA089E7BA4D /* Pods_HybridDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HybridDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +185,7 @@
 			children = (
 				8B9C4B5C292693DB00106D95 /* AppDelegate.swift */,
 				8B9C4B5E292693DB00106D95 /* SceneDelegate.swift */,
+				8B9C4B7129269B1F00106D95 /* ContentView.swift */,
 				8B9C4B60292693DB00106D95 /* ViewController.swift */,
 				8B9C4B62292693DB00106D95 /* Main.storyboard */,
 				8B9C4B65292693DD00106D95 /* Assets.xcassets */,
@@ -95,8 +198,450 @@
 		8B9C4B702926946B00106D95 /* FlutterModule */ = {
 			isa = PBXGroup;
 			children = (
+				8B9C4BFF29269CA500106D95 /* flutter_playground */,
 			);
 			path = FlutterModule;
+			sourceTree = "<group>";
+		};
+		8B9C4BFF29269CA500106D95 /* flutter_playground */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C0029269CA500106D95 /* .packages */,
+				8B9C4C0129269CA500106D95 /* flutter_playground_android.iml */,
+				8B9C4C0229269CA500106D95 /* test */,
+				8B9C4C0429269CA500106D95 /* flutter_playground.iml */,
+				8B9C4C0529269CA500106D95 /* .metadata */,
+				8B9C4C0629269CA500106D95 /* pubspec.lock */,
+				8B9C4C0729269CA500106D95 /* .ios */,
+				8B9C4C2C29269CA500106D95 /* README.md */,
+				8B9C4C2D29269CA500106D95 /* .android */,
+				8B9C4C5629269CA500106D95 /* pubspec.yaml */,
+				8B9C4C5729269CA500106D95 /* .gitignore */,
+				8B9C4C5829269CA500106D95 /* lib */,
+				8B9C4C5A29269CA500106D95 /* analysis_options.yaml */,
+				8B9C4C5B29269CA500106D95 /* build */,
+				8B9C4C6929269CA500106D95 /* .dart_tool */,
+			);
+			path = flutter_playground;
+			sourceTree = "<group>";
+		};
+		8B9C4C0229269CA500106D95 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C0329269CA500106D95 /* widget_test.dart */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		8B9C4C0729269CA500106D95 /* .ios */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C0829269CA500106D95 /* Runner.xcworkspace */,
+				8B9C4C0929269CA500106D95 /* Config */,
+				8B9C4C0D29269CA500106D95 /* Runner */,
+				8B9C4C1729269CA500106D95 /* Runner.xcodeproj */,
+				8B9C4C1A29269CA500106D95 /* Flutter */,
+				8B9C4C2A29269CA500106D95 /* .symlinks */,
+			);
+			path = .ios;
+			sourceTree = "<group>";
+		};
+		8B9C4C0929269CA500106D95 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C0A29269CA500106D95 /* Debug.xcconfig */,
+				8B9C4C0B29269CA500106D95 /* Release.xcconfig */,
+				8B9C4C0C29269CA500106D95 /* Flutter.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8B9C4C0D29269CA500106D95 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C0E29269CA500106D95 /* AppDelegate.h */,
+				8B9C4C0F29269CA500106D95 /* Assets.xcassets */,
+				8B9C4C1029269CA500106D95 /* LaunchScreen.storyboard */,
+				8B9C4C1229269CA500106D95 /* Main.storyboard */,
+				8B9C4C1429269CA500106D95 /* main.m */,
+				8B9C4C1529269CA500106D95 /* AppDelegate.m */,
+				8B9C4C1629269CA500106D95 /* Info.plist */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		8B9C4C1829269CA500106D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C8A29269CA500106D95 /* Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B9C4C1A29269CA500106D95 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C1B29269CA500106D95 /* podhelper.rb */,
+				8B9C4C1C29269CA500106D95 /* flutter_export_environment.sh */,
+				8B9C4C1D29269CA500106D95 /* flutter_playground.podspec */,
+				8B9C4C1E29269CA500106D95 /* FlutterPluginRegistrant */,
+				8B9C4C2329269CA500106D95 /* App.framework */,
+				8B9C4C2429269CA500106D95 /* README.md */,
+				8B9C4C2529269CA500106D95 /* AppFrameworkInfo.plist */,
+				8B9C4C2629269CA500106D95 /* Generated.xcconfig */,
+				8B9C4C2729269CA500106D95 /* engine */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		8B9C4C1E29269CA500106D95 /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C1F29269CA500106D95 /* Classes */,
+				8B9C4C2229269CA500106D95 /* FlutterPluginRegistrant.podspec */,
+			);
+			path = FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+		8B9C4C1F29269CA500106D95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C2029269CA500106D95 /* GeneratedPluginRegistrant.h */,
+				8B9C4C2129269CA500106D95 /* GeneratedPluginRegistrant.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B9C4C2729269CA500106D95 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C2829269CA500106D95 /* Flutter.podspec */,
+				8B9C4C2929269CA500106D95 /* Flutter.xcframework */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		8B9C4C2A29269CA500106D95 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C2B29269CA500106D95 /* plugins */,
+			);
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		8B9C4C2B29269CA500106D95 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		8B9C4C2D29269CA500106D95 /* .android */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C2E29269CA500106D95 /* app */,
+				8B9C4C4029269CA500106D95 /* include_flutter.groovy */,
+				8B9C4C4129269CA500106D95 /* local.properties */,
+				8B9C4C4229269CA500106D95 /* gradle */,
+				8B9C4C4629269CA500106D95 /* Flutter */,
+				8B9C4C5129269CA500106D95 /* gradlew */,
+				8B9C4C5229269CA500106D95 /* build.gradle */,
+				8B9C4C5329269CA500106D95 /* gradle.properties */,
+				8B9C4C5429269CA500106D95 /* gradlew.bat */,
+				8B9C4C5529269CA500106D95 /* settings.gradle */,
+			);
+			path = .android;
+			sourceTree = "<group>";
+		};
+		8B9C4C2E29269CA500106D95 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C2F29269CA500106D95 /* build.gradle */,
+				8B9C4C3029269CA500106D95 /* src */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		8B9C4C3029269CA500106D95 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3129269CA500106D95 /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8B9C4C3129269CA500106D95 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3229269CA500106D95 /* res */,
+				8B9C4C3929269CA500106D95 /* AndroidManifest.xml */,
+				8B9C4C3A29269CA500106D95 /* java */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		8B9C4C3229269CA500106D95 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3329269CA500106D95 /* mipmap-hdpi */,
+				8B9C4C3529269CA500106D95 /* drawable */,
+				8B9C4C3729269CA500106D95 /* values */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		8B9C4C3329269CA500106D95 /* mipmap-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3429269CA500106D95 /* ic_launcher.png */,
+			);
+			path = "mipmap-hdpi";
+			sourceTree = "<group>";
+		};
+		8B9C4C3529269CA500106D95 /* drawable */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3629269CA500106D95 /* launch_background.xml */,
+			);
+			path = drawable;
+			sourceTree = "<group>";
+		};
+		8B9C4C3729269CA500106D95 /* values */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3829269CA500106D95 /* styles.xml */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		8B9C4C3A29269CA500106D95 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3B29269CA500106D95 /* com */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		8B9C4C3B29269CA500106D95 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3C29269CA500106D95 /* example */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		8B9C4C3C29269CA500106D95 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3D29269CA500106D95 /* flutter_playground */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		8B9C4C3D29269CA500106D95 /* flutter_playground */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3E29269CA500106D95 /* host */,
+			);
+			path = flutter_playground;
+			sourceTree = "<group>";
+		};
+		8B9C4C3E29269CA500106D95 /* host */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C3F29269CA500106D95 /* MainActivity.java */,
+			);
+			path = host;
+			sourceTree = "<group>";
+		};
+		8B9C4C4229269CA500106D95 /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4329269CA500106D95 /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		8B9C4C4329269CA500106D95 /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4429269CA500106D95 /* gradle-wrapper.jar */,
+				8B9C4C4529269CA500106D95 /* gradle-wrapper.properties */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		8B9C4C4629269CA500106D95 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4729269CA500106D95 /* flutter.iml */,
+				8B9C4C4829269CA500106D95 /* build.gradle */,
+				8B9C4C4929269CA500106D95 /* src */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		8B9C4C4929269CA500106D95 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4A29269CA500106D95 /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8B9C4C4A29269CA500106D95 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4B29269CA500106D95 /* AndroidManifest.xml */,
+				8B9C4C4C29269CA500106D95 /* java */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		8B9C4C4C29269CA500106D95 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4D29269CA500106D95 /* io */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		8B9C4C4D29269CA500106D95 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4E29269CA500106D95 /* flutter */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		8B9C4C4E29269CA500106D95 /* flutter */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C4F29269CA500106D95 /* plugins */,
+			);
+			path = flutter;
+			sourceTree = "<group>";
+		};
+		8B9C4C4F29269CA500106D95 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C5029269CA500106D95 /* GeneratedPluginRegistrant.java */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		8B9C4C5829269CA500106D95 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C5929269CA500106D95 /* main.dart */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8B9C4C5B29269CA500106D95 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C5C29269CA500106D95 /* c075001b96339384a97db4862b8ab8db.cache.dill.track.dill */,
+				8B9C4C5D29269CA500106D95 /* b6b68957fc5ed9202596a46ebc5bde9b */,
+				8B9C4C6129269CA500106D95 /* ios */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		8B9C4C5D29269CA500106D95 /* b6b68957fc5ed9202596a46ebc5bde9b */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C5E29269CA500106D95 /* gen_localizations.stamp */,
+				8B9C4C5F29269CA500106D95 /* gen_dart_plugin_registrant.stamp */,
+				8B9C4C6029269CA500106D95 /* _composite.stamp */,
+			);
+			path = b6b68957fc5ed9202596a46ebc5bde9b;
+			sourceTree = "<group>";
+		};
+		8B9C4C6129269CA500106D95 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C6229269CA500106D95 /* Debug-iphonesimulator */,
+				8B9C4C6729269CA500106D95 /* iphonesimulator */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		8B9C4C6229269CA500106D95 /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C6329269CA500106D95 /* .last_build_id */,
+				8B9C4C6429269CA500106D95 /* Flutter.framework */,
+				8B9C4C6529269CA500106D95 /* App.framework */,
+				8B9C4C6629269CA500106D95 /* Runner.app */,
+			);
+			path = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		8B9C4C6729269CA500106D95 /* iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C6829269CA500106D95 /* Runner.app */,
+			);
+			path = iphonesimulator;
+			sourceTree = "<group>";
+		};
+		8B9C4C6929269CA500106D95 /* .dart_tool */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C6A29269CA500106D95 /* package_config.json */,
+				8B9C4C6B29269CA500106D95 /* flutter_build */,
+				8B9C4C8629269CA500106D95 /* package_config_subset */,
+				8B9C4C8729269CA500106D95 /* version */,
+			);
+			path = .dart_tool;
+			sourceTree = "<group>";
+		};
+		8B9C4C6B29269CA500106D95 /* flutter_build */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C6C29269CA500106D95 /* 2644dc0ed9c227afc9429b7821b5de45 */,
+				8B9C4C7929269CA500106D95 /* 5149d56fee1de6f8117b4a0a90c24b1c */,
+			);
+			path = flutter_build;
+			sourceTree = "<group>";
+		};
+		8B9C4C6C29269CA500106D95 /* 2644dc0ed9c227afc9429b7821b5de45 */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C6D29269CA500106D95 /* kernel_snapshot.stamp */,
+				8B9C4C6E29269CA500106D95 /* debug_universal_framework.stamp */,
+				8B9C4C6F29269CA500106D95 /* gen_localizations.stamp */,
+				8B9C4C7029269CA500106D95 /* app.dill */,
+				8B9C4C7129269CA500106D95 /* debug_unpack_ios.stamp */,
+				8B9C4C7229269CA500106D95 /* outputs.json */,
+				8B9C4C7329269CA500106D95 /* gen_dart_plugin_registrant.stamp */,
+				8B9C4C7429269CA500106D95 /* App.framework */,
+				8B9C4C7529269CA500106D95 /* flutter_assets.d */,
+				8B9C4C7629269CA500106D95 /* debug_ios_bundle_flutter_assets.stamp */,
+				8B9C4C7729269CA500106D95 /* kernel_snapshot.d */,
+				8B9C4C7829269CA500106D95 /* .filecache */,
+			);
+			path = 2644dc0ed9c227afc9429b7821b5de45;
+			sourceTree = "<group>";
+		};
+		8B9C4C7929269CA500106D95 /* 5149d56fee1de6f8117b4a0a90c24b1c */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4C7A29269CA500106D95 /* kernel_snapshot.stamp */,
+				8B9C4C7B29269CA500106D95 /* debug_universal_framework.stamp */,
+				8B9C4C7C29269CA500106D95 /* gen_localizations.stamp */,
+				8B9C4C7D29269CA500106D95 /* app.dill */,
+				8B9C4C7E29269CA500106D95 /* debug_unpack_ios.stamp */,
+				8B9C4C7F29269CA500106D95 /* outputs.json */,
+				8B9C4C8029269CA500106D95 /* gen_dart_plugin_registrant.stamp */,
+				8B9C4C8129269CA500106D95 /* App.framework */,
+				8B9C4C8229269CA500106D95 /* flutter_assets.d */,
+				8B9C4C8329269CA500106D95 /* debug_ios_bundle_flutter_assets.stamp */,
+				8B9C4C8429269CA500106D95 /* kernel_snapshot.d */,
+				8B9C4C8529269CA500106D95 /* .filecache */,
+			);
+			path = 5149d56fee1de6f8117b4a0a90c24b1c;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,9 +652,11 @@
 			buildConfigurationList = 8B9C4B6D292693DD00106D95 /* Build configuration list for PBXNativeTarget "HybridDemo" */;
 			buildPhases = (
 				D02024F6559F18C08B73129E /* [CP] Check Pods Manifest.lock */,
+				9282C15C639B471F62B21AFD /* [CP-User] Run Flutter Build flutter_playground Script */,
 				8B9C4B55292693DB00106D95 /* Sources */,
 				8B9C4B56292693DB00106D95 /* Frameworks */,
 				8B9C4B57292693DB00106D95 /* Resources */,
+				34D1E9F1C93013095C99CE79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,12 +693,28 @@
 			mainGroup = 8B9C4B50292693DB00106D95;
 			productRefGroup = 8B9C4B5A292693DB00106D95 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8B9C4C1829269CA500106D95 /* Products */;
+					ProjectRef = 8B9C4C1729269CA500106D95 /* Runner.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8B9C4B58292693DB00106D95 /* HybridDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8B9C4C8A29269CA500106D95 /* Runner.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Runner.app;
+			remoteRef = 8B9C4C8929269CA500106D95 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8B9C4B57292693DB00106D95 /* Resources */ = {
@@ -167,6 +730,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		34D1E9F1C93013095C99CE79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HybridDemo/Pods-HybridDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HybridDemo/Pods-HybridDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HybridDemo/Pods-HybridDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9282C15C639B471F62B21AFD /* [CP-User] Run Flutter Build flutter_playground Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_playground Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/FlutterModule/flutter_playground/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
 		D02024F6559F18C08B73129E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +788,7 @@
 			files = (
 				8B9C4B61292693DB00106D95 /* ViewController.swift in Sources */,
 				8B9C4B5D292693DB00106D95 /* AppDelegate.swift in Sources */,
+				8B9C4B7229269B1F00106D95 /* ContentView.swift in Sources */,
 				8B9C4B5F292693DB00106D95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +810,22 @@
 				8B9C4B68292693DD00106D95 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B9C4C1029269CA500106D95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9C4C1129269CA500106D95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B9C4C1229269CA500106D95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9C4C1329269CA500106D95 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
