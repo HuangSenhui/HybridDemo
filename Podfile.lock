@@ -6,23 +6,23 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `FlutterModule/flutter_playground/.ios/Flutter/engine`)
-  - flutter_playground (from `FlutterModule/flutter_playground/.ios/Flutter`)
-  - FlutterPluginRegistrant (from `FlutterModule/flutter_playground/.ios/Flutter/FlutterPluginRegistrant`)
+  - Flutter (from `../FlutterModule/flutter_playground/.ios/Flutter/engine`)
+  - flutter_playground (from `../FlutterModule/flutter_playground/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../FlutterModule/flutter_playground/.ios/Flutter/FlutterPluginRegistrant`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: FlutterModule/flutter_playground/.ios/Flutter/engine
+    :path: "../FlutterModule/flutter_playground/.ios/Flutter/engine"
   flutter_playground:
-    :path: FlutterModule/flutter_playground/.ios/Flutter
+    :path: "../FlutterModule/flutter_playground/.ios/Flutter"
   FlutterPluginRegistrant:
-    :path: FlutterModule/flutter_playground/.ios/Flutter/FlutterPluginRegistrant
+    :path: "../FlutterModule/flutter_playground/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
   Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
   flutter_playground: 5b31c5cad0804fe1094337d3d9eade9b040f70b7
   FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
 
-PODFILE CHECKSUM: 5a3ef8b950b67ba6d9e64cfcebc6806304236f92
+PODFILE CHECKSUM: 05cf4d619c79de7516d377153a4e769bc29bcd1d
 
 COCOAPODS: 1.11.3
