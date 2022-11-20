@@ -29,6 +29,7 @@
 		8B9C4B6A292693DD00106D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9C4B7129269B1F00106D95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B9C4C8D2929D71700106D95 /* HFlutterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFlutterViewController.swift; sourceTree = "<group>"; };
+		8B9C4C8F292A95C700106D95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AFE678963DD8D5AB8FD0B4E9 /* Pods-HybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridDemo.debug.xcconfig"; path = "Target Support Files/Pods-HybridDemo/Pods-HybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BBA2B1E168200D94B1817528 /* Pods-HybridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridDemo.release.xcconfig"; path = "Target Support Files/Pods-HybridDemo/Pods-HybridDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FD5E884262638AA089E7BA4D /* Pods_HybridDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HybridDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +67,7 @@
 		8B9C4B50292693DB00106D95 = {
 			isa = PBXGroup;
 			children = (
+				8B9C4C8F292A95C700106D95 /* README.md */,
 				8B9C4B5B292693DB00106D95 /* HybridDemo */,
 				8B9C4B5A292693DB00106D95 /* Products */,
 				63FDA1E50FBBCA6BF2ED8531 /* Pods */,
